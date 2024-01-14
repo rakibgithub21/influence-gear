@@ -10,6 +10,7 @@
 
     .influencer-banner {
         flex-direction: column-reverse;
+        gap: 20px;
 
     }
 
@@ -47,4 +48,26 @@
         padding: 0;
         
     }
+
+    .collection-container{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .see-more{
+        justify-content: end;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .feature-text{
+        text-align: center;
+    }
+
+    .feature-product-container{
+        flex-direction: column-reverse;
+       
+    }
+
+    
+    
 }

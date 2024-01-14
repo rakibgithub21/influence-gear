@@ -13,7 +13,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 /*--------------- header styles here ---------------- */
@@ -24,7 +24,7 @@ header nav {
     justify-content: space-between;
     margin-bottom: 90px;
     padding: 40px 0;
-    
+
 }
 
 header nav ul {
@@ -72,32 +72,34 @@ header nav ul li a {
     border-radius: 41px;
     background: #E02C6D;
 }
-.influencer-banner{
+
+.influencer-banner {
     display: flex;
     align-items: center;
     /* border: 2px solid salmon; */
-    gap: 50px;
+    gap: 200px;
     /* justify-content: space-between; */
 }
 
-.influencer{
+.influencer {
     width: 48%;
     /* border: 1px silver solid; */
-    
+
 }
-.camera-img{
+
+.camera-img {
     width: 48%;
     /* border: 1px silver solid; */
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-position:  center;
-    
-   
+    background-position: center;
+
+
 }
 
 
 /* company logo is start here */
-.company-logo{
+.company-logo {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -110,3 +112,92 @@ header nav ul li a {
 
 
 
+/* Popular collection style here */
+.collection-title {
+    color: #3A3A3A;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.collection {
+    padding: 17px 15px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.collection img {
+    width: 100%;
+}
+
+.collection-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+
+section {
+    margin-top: 80px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: end;
+    padding: 0 100px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.see-more a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 5px;
+}
+
+.see-more p {
+    color: red;
+}
+
+.feature-product-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 2.37rem;
+    font-style: normal;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 16px 0;
+}
+
+/* 175% */
+.join-now {
+    background: #E02C6D;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 25px;
+    border: none;
+    
+}
+
+.fa-arrow-right{
+    margin-left: 5px;
+}
