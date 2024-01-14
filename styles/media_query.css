@@ -41,4 +41,10 @@
     .influence-description br {
         display: none;
     }
+    .company-logo{
+        flex-wrap: wrap;
+        border: none;
+        padding: 0;
+        
+    }
 }
