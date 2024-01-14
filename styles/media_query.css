@@ -1,0 +1,44 @@
+/* mobile devices media query */
+@media screen and (max-width:576px) {
+    header nav{
+        margin-bottom: 30px;
+    }
+    .nav,
+    ul {
+        flex-direction: column;
+    }
+
+    .influencer-banner {
+        flex-direction: column-reverse;
+
+    }
+
+    .influencer {
+        width: 100%;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .influence-title {
+        font-size: 1.75rem;
+
+    }
+
+    .influence-description {
+        font-size: 0.8rem;
+    }
+
+    .camera-img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .camera-img img {
+        width: 100%;
+    }
+
+    .influence-description br {
+        display: none;
+    }
+}
